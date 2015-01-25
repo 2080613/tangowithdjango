@@ -13,11 +13,13 @@ def populate():
 
     add_page(cat=python_cat,
         title="Official Python Tutorial",
-        url="http://docs.python.org/2/tutorial/")
+        url="http://docs.python.org/2/tutorial/",
+        views=1024)
 
     add_page(cat=python_cat,
         title="How to Think like a Computer Scientist",
-        url="http://www.greenteapress.com/thinkpython/")
+        url="http://www.greenteapress.com/thinkpython/",
+        views=2048)
 
     add_page(cat=python_cat,
         title="Learn Python in 10 Minutes",
@@ -45,13 +47,15 @@ def populate():
 
     add_page(cat=frame_cat,
         title="Flask",
-        url="http://flask.pocoo.org")
+        url="http://flask.pocoo.org",
+        views=39)
 
     student_name_cat = add_cat("Seoras Macdonald", 0, 0)
 
     add_page(cat=student_name_cat,
         title="Github",
-        url="https://github.com/2080613")
+        url="https://github.com/2080613",
+        views=500)
 
     add_page(cat=student_name_cat,
         title="Python Anywhere",
