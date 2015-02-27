@@ -5,6 +5,11 @@
 {% block title_block %}<h1>The about page!</h1>{% endblock %}
 {% block body_block %}
     <p>This tutorial has been put together by Seoras Macdonald, 2080613</p>
+    {% if count > 0 %}
+        <p>You have visited this site {{ count }} times!</p>
+    {% else %}
+        <p>You have never visited this site?!</p>
+    {% endif %}
     <img src="{% static "images/me.jpg" %}" alt="Seoras Macdonald"/>
 
 {% endblock %}
